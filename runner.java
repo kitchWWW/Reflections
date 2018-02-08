@@ -11,9 +11,9 @@ public class runner {
 
 	public static void main(String[] args) {
 		String  timeStamp = args[0];
-		int lowestNote = Integer.parseInt(args[1]);
-		int highestNote = Integer.parseInt(args[2]);
-		int lowEndOctave = Integer.parseInt(args[3]);
+		int lowestNote = Integer.parseInt(args[1])+12;
+		int highestNote = Integer.parseInt(args[2])+12;
+		int lowEndOctave = Integer.parseInt(args[3])+12;
 		String staff = args[4];
 
 		ArrayList<Insturment> insturments = new ArrayList<>();
